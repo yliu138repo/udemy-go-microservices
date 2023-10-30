@@ -54,6 +54,10 @@ down:
 	docker-compose down
 	@echo "Done!"
 
+# show docker-compose ps
+ps:
+	docker-compose ps
+
 ## build_front_linux: builds the front end binary as a linux executable
 build_front_linux:
 	@echo "Building front end linux binary..."
